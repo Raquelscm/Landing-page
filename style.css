@@ -1,0 +1,70 @@
+/* font and color styling */
+body{
+    width: 70%;
+}
+h1, h2, h3{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+p, span{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* buttons styling */
+
+button{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.btn-filled{
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 40px;
+    padding: 20px 60px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#btn-subscribe{
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 5px;
+    padding: 15px 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.btn-filled:hover, .btn-filled:active, #btn-subscribe:hover, #btn-subscribe:active{
+    background-color: hsl(321, 100%, 78%);
+    cursor: pointer;
+}
+
+.btn-outline{
+    background-color: white;
+    color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 40px;
+    padding: 10px 30px;
+    font-weight: 600;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.btn-outline:hover, .btn-outline:active{
+    color: hsl(321, 100%, 78%);
+    cursor: pointer;
+    border-color: hsl(321, 100%, 78%);
+}
+
+/* Header - logo-and-button */
+header{
+    display: flex;
+    flex-direction: column;
+}
+.logo-and-button{
+
+}
