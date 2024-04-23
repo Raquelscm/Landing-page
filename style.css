@@ -1,6 +1,7 @@
-/* font and color styling */
+/* general font and color styling */
 body{
-    width: 70%;
+    margin: 0;
+    padding: 0;
 }
 h1, h2, h3{
   font-family: "Poppins", sans-serif;
@@ -11,6 +12,33 @@ p, span{
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+/* Illustrations */
+
+.bg-card{
+    background-color: hsl(207, 100%, 98%);
+    margin-top: -25px;
+}
+
+/* footer */
+
+.footer-info{
+    background-color: hsl(192, 100%, 9%);
+    margin-top: -5px;
+}
+
+footer{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover, a:active{
+    color: hsla(201, 100%, 45%, 1);
 }
 
 /* buttons styling */
@@ -64,7 +92,4 @@ button{
 header{
     display: flex;
     flex-direction: column;
-}
-.logo-and-button{
-
 }
