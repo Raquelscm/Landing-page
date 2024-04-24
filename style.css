@@ -21,12 +21,19 @@ p, span{
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
+  line-height: 24px;
 }
 
 .num-count{
-    font-size: 70px;
+    font-size: 100px;
     line-height: 0;
     font-weight: 700;
+}
+
+.text-count{
+    font-size: 24px;
+    line-height: 0;
+    color: gray;
 }
 
 /* Illustrations */
@@ -34,6 +41,11 @@ p, span{
 .bg-card{
     background-color: hsl(207, 100%, 98%);
     margin-top: -25px;
+    padding: 100px 200px 60px 200px;
+}
+
+.bg-white{
+    padding: 185px 200px 100px 200px;
 }
 
 /* footer */
@@ -65,11 +77,12 @@ button{
 }
 
 .btn-filled{
+    font-size: 16px;
     color: white;
     background-color: hsl(322, 100%, 66%);
     border: none;
     border-radius: 40px;
-    padding: 20px 60px;
+    padding: 20px 80px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
@@ -159,9 +172,33 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 170px auto;
 }
+
+/* footer */
 
 .footer-info{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 120px 200px 100px 200px;
+}
+
+.contacts{
+    max-width: 305px;
+}
+
+.newsletter{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.newsletter-span{
+    grid-column: span 2;
+}
+
+input{
+    width: 360px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
