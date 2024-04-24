@@ -1,4 +1,4 @@
-/* general font and color styling */
+/* Font & Color styling */
 body{
     margin: 0;
     padding: 0;
@@ -88,8 +88,46 @@ button{
     border-color: hsl(321, 100%, 78%);
 }
 
-/* Header - logo-and-button */
+/* Display & Direction */
+
 header{
     display: flex;
     flex-direction: column;
+    padding-top: 80px;
+}
+
+.logo-and-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* curved cards */
+
+.text-illustration{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ready-to-build{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-around;
 }
