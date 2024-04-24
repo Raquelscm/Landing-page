@@ -1,9 +1,18 @@
-/* Font & Color styling */
+/* Font & Color styling*/
 body{
     margin: 0;
     padding: 0;
 }
-h1, h2, h3{
+
+h1{
+   font-size: 44px;
+}
+
+h2{
+  font-size: 32px;  
+}
+
+h1, h2{
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -12,6 +21,12 @@ p, span{
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.num-count{
+    font-size: 70px;
+    line-height: 0;
+    font-weight: 700;
 }
 
 /* Illustrations */
@@ -93,32 +108,51 @@ button{
 header{
     display: flex;
     flex-direction: column;
-    padding-top: 80px;
+    padding: 80px 80px 135px 80px;
 }
 
 .logo-and-button{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 230px;
 }
 
 .hero{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center; 
+}
+
+.hero img{
+    margin: 125px 0px;
+}
+
+.hero p{
+    margin-bottom: 50px;
 }
 
 .numbers{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.numbers p, .numbers h3{
+    text-align: center;
 }
 
 /* curved cards */
 
 .text-illustration{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+
+.text-illustration img, .text{
+    flex: 0 1 auto;
+    max-width: 530px;
 }
 
 .ready-to-build{
