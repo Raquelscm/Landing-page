@@ -2,7 +2,7 @@
     width: device-width;
   }
   
-  @media screen and (min-width: 376px){
+  @media screen and (min-width: 426px){
 /* Font & Color styling*/
 
 .mobile-only{
@@ -224,6 +224,10 @@ header{
     margin-right: 20px; 
 }
 
+#logo-footer{
+    width: 235px;
+}
+
 .newsletter{
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
@@ -253,7 +257,7 @@ input{
 
 /* MOBILE CSS */
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 425px){
     .desktop-only{
         display:none !important;
     }
@@ -313,18 +317,18 @@ input{
     .bg-card{
         display: flex;
         flex-direction: column-reverse;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
         background-color: hsl(207, 100%, 98%);
         margin-top: -5px;
-        padding: 0px 30px 65px 0px;
+        height: 550px;
     }
     
     .bg-white{
-        padding: 185px 0px 100px px;
+        height: 620px;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
     }
     
@@ -367,6 +371,7 @@ input{
     }
     
     #btn-subscribe{
+        float: right;
         color: white;
         background-color: hsl(322, 100%, 66%);
         border: none;
@@ -386,7 +391,7 @@ input{
         color: hsl(322, 100%, 66%);
         border: 1px solid hsl(322, 100%, 66%);
         border-radius: 40px;
-        padding: 7px 20px;
+        padding: 5px 18px;
         font-weight: 600;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     }
@@ -448,23 +453,32 @@ input{
     /* curved cards */
     
     .text-illustration{
-        text-align: center; 
+        text-align: center;
+        padding: 0px 25px; 
     }
     
-    .text-illustration img, .text{
-        max-width: 250px;
+    .text-illustration img{
+        max-width: 265px;
     }
     
     .ready-to-build{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 70px 70px 240px 70px;
+        margin: 70px 25px 240px 25px;
+    }
+
+    .ready-to-build h2{
+        margin-bottom: 40px;
         text-align: center;
     }
-    
+
     /* footer */
     
+    #logo-footer{
+        width: 200px;
+    }
+
     .footer-info{
         display: flex;
         flex-direction: column-reverse;
@@ -477,11 +491,11 @@ input{
     }
     
     .contacts p{
-        margin-top: 30px;
+        margin: 20px 0px 40px 0px;
     }
     
     .contacts-text {
-        margin-top: 30px;
+        margin-top: 20px;
     }
     
     .contacts-text img{
@@ -489,22 +503,31 @@ input{
     }
     
     .contacts-icons{
-        margin-top: 80px; 
+        margin-top: 50px; 
     }
     
     .contacts-icons a{
-        font-size: 32px;
-        margin-right: 20px; 
+        font-size: 24px;
+        margin-right: 15px; 
     }
     
+    .newsletter{
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
     #newsletter-tittle{
         font-size: 20px;
     }
     
     input{
+        width: 90%;
+        float: right;
         padding: 15px;
         border-radius: 5px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        margin: 15px 0px;
     }
       
 }
